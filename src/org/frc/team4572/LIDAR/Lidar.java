@@ -19,7 +19,7 @@ public class Lidar {
 	     * Create an object for a LIDAR-Lite attached to some port on the roboRIO
 	     * @param port port in DIO that the LIDAR is attached to
 	     */
-	    public void initLIDAR(int port) {
+	    public Lidar(int port) {
 	    	DigitalSource source = new DigitalInput(port);
 	    	counter = new Counter(source);
 	        counter.setMaxPeriod(1.0);
