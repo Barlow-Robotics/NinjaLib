@@ -1,6 +1,8 @@
 # NinjaLib
 Library for general FRC use
 
+Here is the [Javadoc](https://barlow-robotics.github.io/NinjaLib/docs/)
+
 ## How to install
 1. Go to the [release page](https://github.com/Barlow-Robotics/NinjaLib/releases)
 2. Intall the latest version of the Library
